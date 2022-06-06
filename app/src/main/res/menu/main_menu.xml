@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/emergency_cases"
+        android:title="Emergency Cases">
+
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/logout">
+
+    </item>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/settings">
+
+    </item>
+
+</menu>

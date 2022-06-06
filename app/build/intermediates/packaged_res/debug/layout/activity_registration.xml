@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emergency"
+    tools:context=".RegistrationActivity">
+
+        <TextView
+            android:id="@+id/tv_registration_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginEnd="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="70dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_first_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_registration_id"
+            android:hint="First Name"
+            android:layout_marginStart="20dp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="25dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_second_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Second Name"
+            android:layout_below="@id/et_first_name_id"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_User_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:layout_below="@id/et_second_name_id"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_email_address_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_User_name_id"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_phone_number_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_email_address_id"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_phone_number_id"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Password"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_register_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/teal_200"
+                    android:text="Register"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_login1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/teal_200"
+                    android:text="Login"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1">
+
+                </Button>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
